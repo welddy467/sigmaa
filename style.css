@@ -1,0 +1,53 @@
+header{
+  color:rgb(19, 71, 14);
+ background-image: url(https://img.freepik.com/darmowe-wektory/zielony-kolor-papeterii-z-lisciem_1308-6823.jpg?ga=GA1.1.1170303340.1733910684&semt=ais_hybrid);
+height: 150px;
+margin-left: 150px;
+margin-right: 150px;
+text-align: center;
+background-size: 100%;
+border-radius: 50px ;
+font-size: 50px;
+border:2px solid black;
+line-height: 130px;
+} 
+
+
+body{
+  background-image: url(https://img.freepik.com/darmowe-zdjecie/ramka-zieleni-w-akwareli-zielonej_53876-105303.jpg);
+  background-size: 100%;
+}
+
+.flex-container{
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.flex-item-left {
+  display: flex;
+  background-color: #6d6d6d60;
+  padding: 10px;
+  flex: 50%;
+  border-radius: 40px;
+  border:2px solid black;
+  
+}
+
+.flex-item-right {
+  display: flex;
+  background-image: url(https://manymornings.com/wp-content/themes/shop/dist/images/recycle-gif.gif);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  flex: 50%;
+  height: 700px;
+}
